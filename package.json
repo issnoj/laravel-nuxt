@@ -1,0 +1,26 @@
+{
+  "name": "laravel-nuxt",
+  "version": "1.0.0",
+  "description": "Laravel + Nuxt.js Sample Project",
+  "author": "ninomaeao",
+  "private": true,
+  "scripts": {
+    "bash": "docker-compose run -w /www/laravel php bash",
+    "route": "docker-compose run -w /www/laravel php php artisan route:list",
+    "test": "docker-compose run -w /www/laravel php ./vendor/bin/phpunit --testdox",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0"
+  }
+}

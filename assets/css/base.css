@@ -1,0 +1,31 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+body {
+  font-family: Montserrat, Noto Sans JP, -apple-system, BlinkMacSystemFont, Helvetica Neue, 游ゴシック Medium, YuGothic, YuGothicM, Hiragino Kaku Gothic ProN, メイリオ, Meiryo, sans-serif;;
+  height: 100%;
+}
+
+hr {
+  border: 1px solid #f0f0f0;
+  margin: 1em 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #7795c3;
+}
